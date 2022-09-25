@@ -44,6 +44,10 @@ Table of Content:
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
 .list {
   list-style: none;
   margin: 0px;
