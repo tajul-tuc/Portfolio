@@ -1,0 +1,17 @@
+YieldChart: createChart: function() : 3741
+
+createSeriesItem: function(seriesType, seriesColor, configuredValueData) : 4228 4049
+
+var plantInfo = plantInfoDict.getPlantObjByPlantId(data.pid); ::: 741
+// value config data
+            this.valuesConfig = data;
+
+
+Flow Chart Of Calling Series Create Function::
+
+createValueAxesAndSeries
+createValueAxesAndSeries_new -----> createSeriesItem -----> configureLineSeriesItem ----->  getRectangleSeriesBullet
+                                                                                            getCircleSeriesBullet
+                                                                                            getDiamondSeriesBullet
+
+
